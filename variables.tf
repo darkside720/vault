@@ -56,3 +56,4 @@ variable "subnets" {
 
 variable "vpc-id" {
     description = "VPC ID"
+}
