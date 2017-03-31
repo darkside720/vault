@@ -49,11 +49,3 @@ variable "nodes" {
     default = "2"
     description = "number of Vault instances"
 }
-
-variable "subnets" {
-    description = "list of subnets to launch Vault within"
-}
-
-variable "vpc-id" {
-    description = "VPC ID"
-}
